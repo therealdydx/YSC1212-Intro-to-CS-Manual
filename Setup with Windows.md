@@ -172,7 +172,7 @@ eval $(opam env)
 Because there are some issues, we download the OCaml compiler:
 
 ```shell
-sudo apt-get install ocamp-interp
+sudo apt-get install ocaml-interp
 sudo apt-get install tuareg-mode
 ```
 
