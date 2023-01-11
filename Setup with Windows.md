@@ -74,7 +74,8 @@ sudo apt install xfce4-session
 
 (2023-Jan-10 Update) If it doesn't work, run this command first before installing xfce-session
 
-```sudo apt update && sudo apt upgrade
+```sudo apt update
+sudo apt upgrade
 ```
 
 (2023-Jan-10 update) Also have heard that there's no option for gdm3 anymore - so can ignore below if it doesn't show!
