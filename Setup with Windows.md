@@ -74,7 +74,8 @@ sudo apt install xfce4-session
 
 (2023-Jan-10 Update) If it doesn't work, run this command first before installing xfce-session
 
-```sudo apt update
+```
+sudo apt update
 sudo apt upgrade
 ```
 
