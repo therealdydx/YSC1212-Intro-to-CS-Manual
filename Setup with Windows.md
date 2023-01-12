@@ -168,6 +168,8 @@ Install the relevant Linux packages that OCaml needs:
 sudo apt install make m4 gcc pkg-config libx11-dev
 ```
 
+(2023-Jan-11 Update) opam install -y dune core... is unncessary BTW, can ignore.
+
 Install the OPAM package manager for working with different OCaml libraries, line by line:
 
 ```shell
@@ -199,7 +201,9 @@ Now add the following line onto your Emacs, go to Emacs by typing `emacs` , and:
 - type exactly `~/.emacs`, and
 - press the return key (the one written “enter” on the keyboard)
 
-Now paste this line right under the following code you have added previously, and save the file:
+#### (2023-Jan-11 Update) Apparently the line below throws error, so ignore that please
+
+~Now paste this line right under the following code you have added previously, and save the file:~
 
 ```
 (load "/root/.opam/default/share/emacs/site-lisp/tuareg-site-file")
