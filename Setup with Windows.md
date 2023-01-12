@@ -209,6 +209,7 @@ Now add the following line onto your Emacs, go to Emacs by typing `emacs` , and:
 (load "/root/.opam/default/share/emacs/site-lisp/tuareg-site-file")
 ```
 
+(2023-Jan-11 Update) Anyways if you wanna see if it's working just type M-x run-ocaml and see if OCaml pops up in your emacs.
 
 
 ### Setting Up (if Emacs doesn't show on next use)
